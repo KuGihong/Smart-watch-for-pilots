@@ -3,6 +3,9 @@ Pilot heart rate measurement, Morse code vibration integration module work
 
 Use Ubuntu 18.04 ROS1 Melodic & 20.04 ROS1 Noetic
 
+![flowchart](https://github.com/KuGihong/Smart-watch-for-pilots-Project/assets/113013130/9f28af46-d37c-44ea-97cd-ba6373bf7be1)
+
+
 ====== First thing you need to do to use the Arduino Due board ======
 
 Modify ArduinoHardware.h code in ros_lib
@@ -15,3 +18,4 @@ Modify ArduinoHardware.h code in ros_lib
   4. Run rosserial after connecting with Programming Port
 
 ![ArduinoHardware](https://github.com/KuGihong/Smart-watch-for-pilots-Project/assets/113013130/a3cb5c08-76b3-4f36-9d4d-6e5a4f0f1209)
+
