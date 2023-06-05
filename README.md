@@ -3,7 +3,7 @@ Pilot heart rate measurement, Morse code vibration integration module work
 
 Use Ubuntu 18.04 ROS1 Melodic & 20.04 ROS1 Noetic
 
-First thing you need to do to use the Arduino Due board:
+====== First thing you need to do to use the Arduino Due board ======
 
 Modify ArduinoHardware.h code in ros_lib
   1. Line 75 iostream = &Serial1;
