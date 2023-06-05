@@ -1,4 +1,4 @@
-# Smart-watch-for-pilots-Project
+# Smart-Watch-For-Pilots-Project
 Pilot heart rate measurement, Morse code vibration integration module work
 
 Use Ubuntu 18.04 ROS1 Melodic & 20.04 ROS1 Noetic
@@ -6,9 +6,9 @@ Use Ubuntu 18.04 ROS1 Melodic & 20.04 ROS1 Noetic
 ====== First thing you need to do to use the Arduino Due board ======
 
 Modify ArduinoHardware.h code in ros_lib
-  1. Line 75 iostream = &Serial1;
-  -> change to iostream = &Serial
-  2. Line 73 #if defined(USBCON) and !(defined(USE_USBCON))
+  1. Line 75 iostream = &Serial1; 
+  -> iostream = &Serial
+  3. Line 73 #if defined(USBCON) and !(defined(USE_USBCON))
   -> #if defined(USBCON) and !(defined(USE_USBCON)) and !(defined(_SAM3XA_))
   3. Add #define USE_USBCON before <ros.h> of Arduino code
   4. Change baud 115200 -> 57600
