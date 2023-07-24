@@ -19,3 +19,9 @@ Modify ArduinoHardware.h code in ros_lib
 
 ![ArduinoHardware](https://github.com/KuGihong/Smart-watch-for-pilots-Project/assets/113013130/a3cb5c08-76b3-4f36-9d4d-6e5a4f0f1209)
 
+
+Use two Arduino Boards (I2C)
+  - Master: Arduino Due(Heart Rate)
+  - Slave: Arduino Micro(Vibration)
+
+
