@@ -26,6 +26,14 @@ Use three Arduino Boards (I2C, zigbee)
   - Slave: Arduino Micro(Output: Vibration, Voice)
   - Zigbee_receiver: Arduino Uno(changeable)
 
+Upload Code:
+  - Arduino Due: master_heartrate_zigbee.ino
+  - Arduino Micro: slave_vibration_voice.ino
+  - Arduino Uno: zigbee_desktop.ino
+  - Desktop: heartrate_msg.py
+
+*To proceed assuming your desired heart rate state, edit the file "test_status.ino" instead of "master_heartrate_zigbee.ino" and upload it to your desired state.
+
 The heart rate sensor location is as follows:
 
 ![심박센서 위치](https://github.com/KuGihong/Smart-watch-for-pilots-Project/assets/113013130/0ad3e269-db79-44b9-a21c-d696e7a48c8b)
@@ -42,3 +50,4 @@ The measured heart rate is displayed as follows according to the provided Python
 3. Danger heart rate
 
 ![위험 심박](https://github.com/KuGihong/Smart-watch-for-pilots-Project/assets/113013130/4d399d33-4c4e-4a5d-a530-f17c35a69960)
+
