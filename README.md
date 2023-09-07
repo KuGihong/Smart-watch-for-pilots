@@ -1,4 +1,4 @@
-# Smart-Watch-For-Pilots-Project
+# Smart-Watch-For-Pilots
 Pilot heart rate measurement, Morse code vibration integration module work
 
 Use Ubuntu 18.04 ROS1 Melodic & 20.04 ROS1 Noetic
